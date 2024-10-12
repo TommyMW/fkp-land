@@ -60,8 +60,8 @@ export default function Home() {
                 </button>
                 
                 <div className="hidden md:flex mr-[10%] md:space-x-4">
-                    <a href="/demo" className="text-lg text-black">Pyydä Tarjous</a>
-                    <a href="/contact" className="text-lg text-black">Rekisteröidy</a>
+                    <a href="/contact" className="text-lg text-black">Pyydä Tarjous</a>
+                    <a href="/register" className="text-lg text-black">Rekisteröidy</a>
                     
                     <div className="relative ml-4" ref={dropdownRef}>
                         <img 
@@ -108,8 +108,8 @@ export default function Home() {
             
             {mobileMenuOpen && (
                 <div className="md:hidden bg-white py-0 px-4">
-                    <a href="/demo" className="block py-0 text-lg text-right text-black">Pyydä Tarjous</a>
-                    <a href="/contact" className="block py-2 text-lg text-right text-black">Rekisteröidy</a>
+                    <a href="/contact" className="block py-0 text-lg text-right text-black">Pyydä Tarjous</a>
+                    <a href="/register" className="block py-2 text-lg text-right text-black">Rekisteröidy</a>
                 </div>
             )}
         </div>
@@ -125,10 +125,10 @@ export default function Home() {
                     <p className="text-lg mb-6 w-[90%] mx-auto md:mx-0 text-black">Saat automaattisesti johdon raportit, kuten taseet ja tuloslaskelmat, valmiiksi.
                       Ohjelmisto on toistaiseksi ilmainen, mutta lähiaikoina alammae veloittamaan 10€/kk tai 68€/vuosi.</p>
                     <div className="flex justify-center md:justify-start space-x-4">
-                        <a href="/demo" className="bg-black text-white px-6 py-2 rounded inline-block">
+                        <a href="/contact" className="bg-black text-white px-6 py-2 rounded inline-block">
                             Katso Demo
                         </a>
-                        <a href="/contact" className="bg-white text-black px-6 py-2 rounded border border-black inline-block ml-4">
+                        <a href="/register" className="bg-white text-black px-6 py-2 rounded border border-black inline-block ml-4">
                             Rekisteröidy
                         </a>
                         <div className="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded shadow-lg hidden" id="language-menu">

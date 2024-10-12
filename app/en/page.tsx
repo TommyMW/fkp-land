@@ -84,7 +84,7 @@ export default function Home() {
                 </button>
                 
                 <div className="hidden md:flex mr-[10%] md:space-x-4">
-                    <a href="/demo" className="text-lg text-black">Contact Us</a>
+                    <a href="/register" className="text-lg text-black">Contact Us</a>
                     <a href="/contact" className="text-lg text-black">Register</a>
                     
                     <div className="relative ml-4" ref={dropdownRef}>
@@ -134,8 +134,8 @@ export default function Home() {
             
             {mobileMenuOpen && (
                 <div className="md:hidden bg-white py-0 px-4">
-                    <a href="/demo" className="block py-0 text-lg text-right text-black">Pyydä Tarjous</a>
-                    <a href="/contact" className="block py-2 text-lg text-right text-black">Rekisteröidy</a>
+                    <a href="/contact" className="block py-0 text-lg text-right text-black">Pyydä Tarjous</a>
+                    <a href="/register" className="block py-2 text-lg text-right text-black">Rekisteröidy</a>
                 </div>
             )}
         </div>
@@ -150,10 +150,10 @@ export default function Home() {
                     <p className="text-lg mb-6 w-[90%] mx-auto md:mx-0 text-black">You automatically prepare management reports such as balance sheets and profit and loss statements.
                         The software is free for now, but in the near future it will be reduced to €10/month or €68/year.</p>
                     <div className="flex justify-center md:justify-start space-x-4">
-                        <a href="/demo" className="bg-black text-white px-6 py-2 rounded inline-block">
+                        <a href="/contact" className="bg-black text-white px-6 py-2 rounded inline-block">
                             Watch Demo
                         </a>
-                        <a href="/contact" className="bg-white text-black px-6 py-2 rounded border border-black inline-block ml-4">
+                        <a href="/register" className="bg-white text-black px-6 py-2 rounded border border-black inline-block ml-4">
                             Register
                         </a>
 
